@@ -1,3 +1,7 @@
+<?php
+    session_start();
+<?
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -40,7 +44,6 @@
 </script>
 
 <?php
-session_start();
 include_once "./db/consultas.php";
 include_once "./funciones/menu.php";
 include_once "./funciones/palabraInapropiada.php";
